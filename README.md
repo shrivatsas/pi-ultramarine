@@ -9,9 +9,10 @@ metadata, and the compatibility flags that match what the server accepts.
 ## Install
 
 ```bash
-pi install ./pi-ultramarine                    # this checkout
-pi install git:github.com/<you>/pi-ultramarine # after you push it
-pi -e ./pi-ultramarine                         # try it without adding it to settings
+pi install ./pi-ultramarine                                           # this checkout
+pi install git:github.com/shrivatsas/pi-ultramarine@v0.1.0            # pinned release
+pi install git:github.com/shrivatsas/pi-ultramarine                    # track main
+pi -e ./pi-ultramarine                                                # try it without adding it to settings
 ```
 
 ## Set the key
