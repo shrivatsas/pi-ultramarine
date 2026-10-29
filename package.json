@@ -1,0 +1,13 @@
+{
+  "name": "pi-ultramarine",
+  "version": "0.1.0",
+  "description": "Ultramarine (Paper Instruments) model provider for pi",
+  "type": "module",
+  "license": "UNLICENSED",
+  "private": true,
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  }
+}
